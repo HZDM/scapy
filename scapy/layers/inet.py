@@ -219,6 +219,7 @@ TCPOptions = (
                 25 : ("Mood","!p"),
                 28 : ("UTO", "!H"),
                 34 : ("TFO", "!II"),
+                253: ("TEST","!HBBHBBBHB")
                 },
               { "EOL":0,
                 "NOP":1,
@@ -232,6 +233,7 @@ TCPOptions = (
                 "Mood":25,
                 "UTO":28,
                 "TFO":34,
+                "TEST":253,
                 } )
 
 class TCPOptionsField(StrField):
